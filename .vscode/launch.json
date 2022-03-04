@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+        "configurations": [
+            {
+            "name": "Microsoft cloud sandbox",
+            "type": "al",
+            "request": "launch",
+            "environmentType": "Sandbox",
+            "environmentName": "Sandbox",
+            "startupObjectId": 22,
+            "breakOnError": true,
+            "breakOnRecordWrite": false,
+            "launchBrowser": true,
+            "enableSqlInformationDebugger": true,
+            "enableLongRunningSqlStatements": true,
+            "longRunningSqlStatementsThreshold": 500,
+            "numberOfSqlStatements": 10,
+            "server": "https://businesscentral.dynamics.com/",
+            "tenant": "adbe1dd4-bf1b-40c6-9687-f2539012d696",
+            "schemaUpdateMode": "ForceSync"
+            },
+        ]
+}
