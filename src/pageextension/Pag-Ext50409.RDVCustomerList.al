@@ -13,8 +13,8 @@ pageextension 50409 "RDV Customer List" extends "Customer List"
                 PromotedCategory = Category5;
                 PromotedIsBig = true;
                 PromotedOnly = true;
-                RunObject = Page "IWX POS Sales Order";
-                RunPageLink = "Sell-to Customer No." = FIELD("No.");
+                // RunObject = Page "IWX POS Sales Order";
+                // RunPageLink = "Sell-to Customer No." = FIELD("No.");
                 RunPageMode = Create;
                 ToolTip = 'Create a counter sales order';
 
