@@ -1,32 +1,44 @@
-﻿{
-    "id":  "5219ed41-cf9c-4f85-8872-b1f78817d615",
-    "name":  "TestApp2",
-    "publisher":  "Nathen.Gay",
-    "version":  "1.0.0.0",
-    "brief":  "",
-    "description":  "",
-    "privacyStatement":  "",
-    "EULA":  "",
-    "help":  "",
-    "url":  "",
-    "logo":  "",
-    "dependencies":  [
+{
+  "id": "a1c21bd4-8275-4382-a97e-15e9055c22eb",
+   "name": "rdv-bc",
+   "publisher": "Default publisher",
+   "version": "1.0.0.37",
+   "brief": "",
+   "description": "",
+   "privacyStatement": "",
+   "EULA": "",
+   "help": "",
+   "url": "",
+   "logo": "",
+   "dependencies": [
+    {
+      "id": "16319982-4995-4fb1-8fb2-2b1e13773e3b",
+      "name": "AMC Banking 365 Fundamentals",
+      "publisher": "Microsoft",
+      "version": "19.0.0.0"
+    },
+    {
+      "id": "8eabc5b4-af11-4384-884e-c3a72a1fbb70",
+      "name": "Counter Sales",
+      "publisher": "Insight Works",
+      "version": "1.0.7923.1"
+    }
 
-                     ],
-    "screenshots":  [
-
-                    ],
-    "platform":  "1.0.0.0",
-    "application":  "19.0.0.0",
-    "idRanges":  [
-                     {
-                         "from":  50000,
-                         "to":  99999
-                     }
-                 ],
-    "resourceExposurePolicy":  {
-                                   "allowDebugging":  true,
-                                   "allowDownloadingSource":  false,
-                                   "includeSourceInSymbolFile":  false
-                               }
-}
+   ],
+   "screenshots": [],
+   "platform": "1.0.0.0",
+   "application": "19.0.0.0",
+   "idRanges": [
+     {
+       "from": 50400,
+       "to": 50999
+     }
+   ],
+   "contextSensitiveHelpUrl": "https://ALProject2.com/help/",
+   "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": false
+  },  
+   "runtime": "8.1"
+ }

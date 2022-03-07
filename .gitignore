@@ -1,6 +1,9 @@
+#ignore any and all compiled .app files for extension in the root folder
 *.app
-*.flf
-TestResults.xml
-rad.json
-.output
-cache_*
+#ignore contents in .alpackages (i.e. downloaded application objects from sandbox environment
+.alpackages/*.app
+.alcache/
+.altemplates/
+*.prn
+temp/
+.vscode/*.json

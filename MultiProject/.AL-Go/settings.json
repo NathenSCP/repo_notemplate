@@ -1,9 +1,0 @@
-﻿{
-    "country":  "us",
-    "appFolders":  [
-                       "testApp"
-                   ],
-    "testFolders":  [
-                        "TestApp2"
-                    ]
-}
